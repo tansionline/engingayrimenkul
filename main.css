@@ -1,7 +1,21 @@
+/*
+1. NAVBAR 
+2. ANASAYFA AYARLARI
+3. DIV ICI AYARLAR
+4. FOOTER
+
+*/
+
 body {
     margin: 0;
 }
-        
+/* 1. NAVBAR  */
+ul.topnav .logo {
+  width: auto;
+  
+
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;

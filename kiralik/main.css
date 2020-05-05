@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Allerta&display=swap');
+
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -47,6 +51,44 @@ ul.topnav li a.active {
 ul.topnav li.right {
     float: right;
 }
+
+/* 2. ANASAYFA AYARLARI */
+
+.inside {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.inside img {
+  width: 70%;
+}
+
+.baslik {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.fiyat {
+  font-family: 'Allerta', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 5. MOBIL UYUMLULUK */
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 

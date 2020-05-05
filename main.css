@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -137,16 +139,28 @@ ul.topnav li.right {
   /* ANASAYFA ILAN  */
 
   .ilanbulundu {
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
   }
 
-  .ilan1 {
-    width: 50%;
-    margin-left: 2rem;
+  .ilan {
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
   }
 
-  .ilan2 {
-    size: auto;
-    margin-left: 2rem;
+  .ilan h2 {
+    font-family: 'Lato', sans-serif;
+
   }
+
+  .ilan h3 {
+    font-family: 'Lato', sans-serif;
+
+  }
+  .ilan img {
+    width: 60%;
+  }
+

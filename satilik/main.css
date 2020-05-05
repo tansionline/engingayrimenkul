@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap');
+
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -9,6 +13,7 @@
 body {
     margin: 0;
 }
+
 /* 1. NAVBAR  */
 ul.topnav .logo {
   width: auto;
@@ -53,4 +58,40 @@ ul.topnav li.right {
   ul.topnav li {
       float: none;
     }
+}
+
+/* 2. ANASAYFA AYARLARI  */
+
+.ilanbaslik {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.ilanbaslik h2 {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+/*   ILANLARIN CSS KODLARI   */
+
+.ilan {
+  margin-top: 3rem;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.ilan h2 {
+  font-family: 'Lato', sans-serif;
+
+}
+
+.ilan h3 {
+  font-family: 'Lato', sans-serif;
+
+}
+.ilan img {
+  width: 70%;
 }

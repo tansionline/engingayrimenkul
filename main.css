@@ -164,3 +164,14 @@ ul.topnav li.right {
     width: 60%;
   }
 
+
+
+
+  /*  FOOTER CSS KODLARI */
+
+
+  .footer {
+    text-align: center;
+    background-color: #111;
+    color: wheat;
+  }

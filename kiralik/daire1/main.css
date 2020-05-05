@@ -157,9 +157,15 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+.aciklama {
+  text-align: center;
+  
+}
 
-
-
+.aciklama p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 
 

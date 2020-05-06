@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600i&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -53,4 +58,50 @@ ul.topnav li.right {
   ul.topnav li {
       float: none;
     }
+}
+
+
+/*  MISYON VIZYON     */
+
+.emlakresim {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.emlakresim img {
+  width: 60%;
+}
+
+.vizyon {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.vizyon h1 {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.vizyon p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+}
+
+.misyon {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.misyon h1 {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.misyon p {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
 }

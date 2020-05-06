@@ -57,7 +57,14 @@ ul.topnav li.right {
   ul.topnav li {
       float: none;
     }
-
+    .logos  {
+      width: 100%;
+      margin-left: 1px;
+      text-align: center;
+    }
+    .logos img {
+      margin-left: 1px;
+    }
 }
 
 
@@ -135,6 +142,20 @@ ul.topnav li.right {
     .text {font-size: 11px}
   }
 
+  /*   ANASAYFA LOGOLARIN CSS DOSYASI */
+
+  .logos {
+    background-color: rgb(240, 236, 240);
+    text-align: center;
+  }
+
+  .logos img {
+    margin-top: 1rem;
+    width: 18%;
+    margin-left: 10px;
+    
+
+  }
 
   /* ANASAYFA ILAN  */
 

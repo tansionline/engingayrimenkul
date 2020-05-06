@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Allerta&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Oswald:600&display=swap');
+
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -177,4 +179,12 @@ img {vertical-align: middle;}
     ul.topnav li {
         float: none;
       }
+  }
+
+
+  /*  ANASAYFA ILAN CSS KODLARI   */
+
+  .aciklama h2, h1 {
+    font-family: 'Oswald', sans-serif;
+
   }

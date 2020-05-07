@@ -54,3 +54,14 @@ ul.topnav li.right {
       float: none;
     }
 }
+
+
+/*   BIO CSS KODLARI   */
+.bio{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.bio img {
+  width: 30%;
+}

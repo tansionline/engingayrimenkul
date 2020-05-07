@@ -105,3 +105,12 @@ ul.topnav li.right {
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
 }
+
+  /*  FOOTER CSS KODLARI */
+
+
+  .footer {
+    text-align: center;
+    background-color: #111;
+    color: wheat;
+  }

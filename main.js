@@ -108,4 +108,14 @@ $(function() {
 
 
 
-// ANASAYFA ILANLARIN SLIDER JS KODLARI DENEME1 
+// ANASAYFA NAVBAR CSS KODLARI 
+
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}

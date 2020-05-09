@@ -13,6 +13,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.topnav .right {
+  float: right;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -56,6 +60,12 @@ body {
     float: right;
     display: block;
   }
+  .topnav img {
+    float: none;
+    text-align: start;
+  }
+  
+
 }
 
 @media screen and (max-width: 920px) {
@@ -74,98 +84,11 @@ body {
     display: block;
     text-align: left;
   }
+
+ 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ESKI NAVBAR CSS KODLARI */
-
-/*
-body {
-  padding:0px; margin:0px; background-color:#fff;font-family:arial,helvetica,sans-serif,verdana,'Open Sans';
-}
-* 1. NAVBAR  *
-ul.topnav .logo {
-  width: auto;
-  
-
-}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav li {
-    float: left;
-}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {
-    background-color: rgb(0, 0, 0);
-}
-
-ul.topnav li a.active {
-    background-color: rgb(189, 48, 48);
-}
-
-ul.topnav li.right {
-    float: right;
-}
-
-*/
-/*   MOBIL UYUMLULUK  */
-
-/*
-
-@media screen and (max-width: 850px) {
-  ul.topnav li.right, 
-  ul.topnav li {
-      float: none;
-    }
-    .logos  {
-      width: 100%;
-      margin-left: 1px;
-      text-align: center;
-    }
-    .logos img {
-      margin-left: 1px;
-    }
-}
-
-@media screen and (max-width: 850px) {
-
-.ilan img {
-  max-width: 100%;
-  width: 100%;
-}
-}
-*/
   /*  ANASAYFA SLIDER CSS KODLARI  */
             .ortalama {
               margin-top: 2rem;

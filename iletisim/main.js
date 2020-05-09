@@ -1,5 +1,5 @@
 
- // ANASAYFA NAVBAR CSS KODLARI 
+// ANASAYFA NAVBAR CSS KODLARI 
 
 
 function myFunction() {

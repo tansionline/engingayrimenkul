@@ -6,7 +6,7 @@
 3. DIV ICI AYARLAR
 4. FOOTER
 
-/* YENI NAVBAR CSS KODLARI */
+/* 1. NAVBAR CSS KODLARI */
 
 body {
   margin: 0;
@@ -93,6 +93,7 @@ body {
             .ortalama {
               margin-top: 2rem;
               margin-bottom: 2rem;
+              height: 100%;
             }
               /*jssor slider loading skin double-tail-spin css*/
               .jssorl-004-double-tail-spin img {

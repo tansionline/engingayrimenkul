@@ -7,18 +7,25 @@
     <!--FAVICON-->
     <link rel="shortcut icon" href="../photos/favicon.jpg" />
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
   <!-- NAVBAR AYARLARI-->
-        <ul class="topnav">
-          <li class="logo">  <img src="../photos/ahmemlak.png"> </li>
-          <li><a href="../index.html">Anasayfa</a></li>
-          <li><a href="../kiralik/kiralik.html">Kiralık Daireler</a></li>
-          <li><a class="active" href="satilik.html">Sahibinden Satılık</a></li>
-          <li><a href="../iletisim/iletisim.html">İletişime Geçin</a></li>
-          <li class="right"><a href="../hakkimizda/hakkimizda.html">Hakkımızda</a></li>
-        </ul>
+
+
+  <div class="topnav" id="myTopnav">
+    <img id="myImage" src="../photos/ahmemlak.png">   
+    <a href="../index.html">Anasayfa</a>
+    <a href="../kiralik/kiralik.html">Kiralık Daireler</a>
+    <a class="active" href="../satilik/satilik.html">Sahibinden Satılık</a>
+    <a href="../iletisim/iletisim.html">İletişime Geçin</a>
+    <a class="right" href="../hakkimizda/hakkimizda.html">Hakkımızda</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
   
   <!-- ANASAYFA -->    
 
@@ -86,4 +93,5 @@
   </div>
 
 </body>
+<script src="./main.js"></script>
 </html>

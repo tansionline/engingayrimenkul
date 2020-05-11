@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:600i&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -11,15 +6,15 @@
 
 */
 
+body {
+    margin: 0;
+}
+/* 1. NAVBAR  */
 /* 1. NAVBAR CSS KODLARI */
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.right {
-  float: right;
 }
 
 .topnav .right {
@@ -98,58 +93,12 @@ body {
 }
 
 
-
-
-/*  MISYON VIZYON     */
-
-.emlakresim {
+/*   BIO CSS KODLARI   */
+.bio{
   margin-top: 3rem;
   text-align: center;
 }
 
-.emlakresim img {
-  width: 60%;
+.bio img {
+  width: 30%;
 }
-
-.vizyon {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.vizyon h1 {
-  font-family: 'Open Sans', sans-serif;
-
-}
-
-.vizyon p {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
-}
-
-.misyon {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.misyon h1 {
-  font-family: 'Open Sans', sans-serif;
-
-}
-
-.misyon p {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
-}
-
-  /*  FOOTER CSS KODLARI */
-
-
-  .footer {
-    text-align: center;
-    background-color: #111;
-    color: wheat;
-  }

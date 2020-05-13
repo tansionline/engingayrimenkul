@@ -6,8 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-
 /*
 1. NAVBAR 
 2. ANASAYFA AYARLARI
@@ -118,7 +116,11 @@ body {
 }
 
 
+
+
+
   /*  ANASAYFA ILAN CSS KODLARI   */
+
 
   .aciklama h1 {
 

@@ -121,7 +121,36 @@ body {
 
   /*  ANASAYFA ILAN CSS KODLARI   */
 
-  .aciklama h2, h1 {
-    font-family: 'Oswald', sans-serif;
+
+  .aciklama h1 {
+
+    margin-top: 2rem;
 
   }
+
+  .ilan  {
+    margin-top: 5rem;
+    text-align: center;
+    
+  }
+
+.card {
+  display: flex;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.fiyat {
+
+  float: none;
+  margin-bottom: 5px;
+  margin-top: 5rem;
+  text-align: center; 
+}

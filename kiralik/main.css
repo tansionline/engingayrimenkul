@@ -129,16 +129,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* 5. MOBIL UYUMLULUK */
 
 @media screen and (max-width: 600px) {
@@ -146,4 +136,9 @@ body {
   ul.topnav li {
       float: none;
     }
+  
+  .inside img {
+  width: 100%;
+}
+  
 }

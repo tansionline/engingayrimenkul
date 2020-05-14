@@ -127,3 +127,15 @@ body {
 .ilan img {
   width: 70%;
 }
+
+
+
+
+@media screen and (max-width: 750px) {
+
+  .ilan img {
+    width: 100%;
+    
+  }
+
+}

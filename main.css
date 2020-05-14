@@ -296,3 +296,11 @@ body {
   .my-float{
     margin-top:16px;
   }
+
+
+
+ @media screen and (max-width: 750px) {
+  .ilan img {
+    width: 100%;
+  }
+  }

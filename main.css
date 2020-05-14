@@ -85,6 +85,9 @@ body {
     text-align: left;
   }
 
+  .ilan img {
+    width: 100%;
+  }
  
 }
 
@@ -133,7 +136,7 @@ body {
   .logos img {
     margin-top: 1rem;
     width: 18%;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     
 
   }
@@ -148,8 +151,7 @@ body {
   .ilan {
     margin-top: 3rem;
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
+ 
     
   }
 
@@ -297,9 +299,7 @@ body {
     margin-top:16px;
   }
 
-
-
- @media screen and (max-width: 750px) {
+  @media screen and (max-width: 750px) {
   .ilan img {
     width: 100%;
   }
